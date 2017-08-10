@@ -25,6 +25,11 @@ public class Application {
     public static final String CACHE_GREETINGS = "greetings";
 
     /**
+     * The name of the Cache for Greeting entities.
+     */
+    public static final String CACHE_INSTANCIAS = "instancias";
+
+    /**
      * Entry point for the application.
      * 
      * @param args Command line arguments.

@@ -18,7 +18,7 @@ public interface AccountRepository extends JpaRepository<Account, Long> {
 
     /**
      * Query for a single Account entities by username.
-     * 
+     *
      * @param username The username value to query the repository.
      * @return An Account or <code>null</code> if none found.
      */
